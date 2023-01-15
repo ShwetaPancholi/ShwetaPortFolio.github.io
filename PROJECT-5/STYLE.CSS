@@ -1,0 +1,144 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS variables */
+/* :root{ */
+    /* --navbar-height: 59px */
+/* } */
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    position: relative;
+
+
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4;
+
+
+}
+/* Navigation Bar : Logo and Image */
+#logo{
+    margin: 15px 15px;
+    background-color: black;
+    border: 5px black solid;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#logo img{
+    height: 100px;
+    margin: 1px 1px;
+}
+#navbar ul{
+    display: flex;
+    font-family: Baloo Bhai, cursive;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 30px;
+}
+#navbar ul li a{
+    display: block;
+    padding: 10px;
+    border-radius: 35px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px white;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+#home::before{
+    content: "";
+    background:url(back1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+/* Utility classes */
+#home h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    font-family: 'Bree Serif' serif;
+    margin-top: 100px;
+}
+#home p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 0px 0px 10px white;
+    font-size: 20px;
+    font-family: 'Bree Serif' serif;
+    font-weight: bold;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 2px;
+    margin-top: 20px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.service-container{
+    display: flex;
+}
+#services{
+    margin: 50px;
+    display: flex;
+}
+#services .box{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 300px;
+    margin-left: -40px;
+    margin-right: -40px;
+    text-align: center;
+    color: white;
+}
+#services .box img{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+#services .box h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px black;
+
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

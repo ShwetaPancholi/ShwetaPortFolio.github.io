@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <title>Harsh Gym</title>
+    </head>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            background-image: url(gym2.webp);
+            background-repeat: no-repeat;
+            color: white;
+            background-position: 0px;
+            font-family: 'Baloo Bhai', cursive;
+        }
+        .left{
+            border: 5px solid rgb(0, 0, 0);
+            border-radius: 50px;
+            overflow: hidden;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+        .center{
+            border: 1px solid rgb(11, 11, 10);
+            display: block;
+            width: 35%;
+            margin: 15px auto;
+            border-radius: 20px;
+            justify-content: center;
+
+        }
+        .right{
+            border: 2px solid rgb(0, 0, 0);
+            display: inline-block;
+            position: absolute;
+            right: 33px;
+            top: 20px;
+
+        }
+        .list{
+            display: inline-block;
+        }
+        .list li{
+            display: inline-block;
+        }
+        .list li a{
+            color: white;
+            margin: 5px 8px;
+            padding: 0px 0px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .list li a:hover{
+            text-decoration: underline;
+            text-shadow: 0px 0px 5px rgb(227, 223, 9);
+            background-color: blueviolet;
+        }
+        .right{
+            margin: 5px 5px;
+            padding: 5px 5px;
+        }
+        .right button{
+            background-color: #000000;
+            color: white;
+            font-size: 20px;
+            font-family: 'Baloo Bhai', cursive;
+        }
+        .right button:hover{
+            text-decoration: underline;
+            text-shadow: 0px 0px 5px rgb(227, 223, 9);
+            background-color: blueviolet;
+
+        }
+        .harsh{
+            position: absolute;
+            top: 135px;
+            left: 80px;
+            letter-spacing: 12;
+            font-size: 20px;
+            
+        }
+        .harsh:hover{
+            text-shadow: 0px 0px 5px yellow;
+            text-decoration: underline;
+            background-color: blueviolet;
+        }
+        .container{
+            position: absolute;
+            top: 100px;
+            margin: 110px 600px;
+            padding: 75px;
+            border-radius: 28px;
+            width: 33%;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 200px;
+            padding: 1px;
+            margin: 11px auto;
+            border: 3px solid black;
+            border-radius: 10px;
+            font-size: 20px;
+            font-family: 'Baloo Bhai', cursive;
+        }
+        .container h1{
+            text-align: center ;
+            text-shadow: 10px 10px 10px rgb(1, 1, 1);
+        }
+        .container button{
+            display: block;
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+            font-size: 25px;
+             
+        }
+        .img{
+            border: 2px rgb(255, 255, 255) solid;
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            top: 400px;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+        .img:hover{
+           border: 10px solid yellow;
+        }
+
+
+    </style>
+    <body>
+        <div class="left">
+            <img src="logo.webp" alt="" width="150px" height="100px">
+        </div>
+        
+        <div class="center">
+            <ul class="list">
+                <li> <a href="">HOME</a></li>
+                <li> <a href="">ABOUT</a></li>
+                <li> <a href="">SUPPLIMENTS</a></li>
+                <li> <a href="">GALLERY</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button onclick="greet()">Call Us</button>
+            <button>Email Us</button>
+        </div>
+        <div class="harsh">HARSH FITNESS CENTER</div>
+        <div class="img"><img src="harsh1.jpg" alt="" width="300px"></div>
+        <div class="container">
+            <h1>Join The Best Gym In Indore</h1>
+            <form action="noaction.python">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Age" placeholder="Enter Your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Gender" placeholder="Enter Your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="locality" placeholder="Enter Your locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="locality" placeholder="Enter Your Ph.No">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="locality" placeholder="Enter Your Email">
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+    </body>
+    <script>
+        function greet(){
+            alert("Harsh Pancholi is busy right now....Call you later")
+        }
+    </script>
+</html>

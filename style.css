@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather:ital,wght@1,300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather:ital,wght@1,300&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lora:ital@1&family=Merriweather:ital,wght@1,300&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.sidebar {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: rgb(126, 125, 125);
+    width: 500px;
+    height: 800px;
+    color: white;
+    
+}
+.sidebar nav{
+    padding: 40px;
+    
+}
+.sidebar nav li{
+    padding: 50px 30px;
+    list-style: none;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    color: black;
+    font-weight: bold;
+}
+.main {
+    background-color: rgb(0, 0, 0);
+    width: 90vw;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(186, 13, 134); */
+    width: 80vw;
+    height:50vh ;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.shwetainfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 70px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.name{
+    font-size: 50px;
+    font-family: 'Lora', serif;
+
+}
+.about{
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.buttons{
+   margin-top: -20px;
+}
+.buttons button{
+    padding: 8px;
+    margin: 30px 10px;
+    border-radius: 20px;
+    background-color: rgb(17, 119, 130);
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: rgb(68, 215, 215);
+
+}
+
+
+.shwetapic img{
+    width: 600px;
+    height: 70vh;
+    max-zoom: 20px;
+   
+}
+/* ----------------------------------------------------- */
+
+.contact{
+    background-color: black;
+    width: 100%;
+
+}
+.contact-main{
+    margin: auto;
+    margin-top:20px ;
+    width: 550px;
+    background-color: rgb(35, 203, 178);
+    border: 2px solid black;
+    border-radius: 50px;
+
+}
+.contact-main form{
+    padding: 70px 70px;
+    background-color: rgb(35, 203, 178);
+    border-radius: 50px;
+}
+.contact-main form input{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(178, 234, 228);
+    
+}
+.contact-main form textarea{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(178, 234, 228);
+    
+}
+.contact-main button{
+    border: 2px solid black;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-left:130px;
+
+}
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.info-main{
+    background-color: black;
+    color: white;
+    width: 2000px;
+}
+
+.info-main .info-container{
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.info-main .info-container h1{
+    padding: 10px 10px;
+    font-size: 50px;
+}
+.info-main .info-container p{
+    font-size: 20px;
+    padding: 10px 10px;
+    word-spacing: 10px;
+    justify-content: center;
+    text-shadow:0px 0px 5px rgb(65, 143, 98);
+    font-style: italic;
+}
+.myskills{
+    width: 1000px;
+    height: 20px;
+    padding: 15px;
+    font-size: 30px;
+}
+.myskills .skills{
+    margin: 5px;
+    padding: 10px 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.myskills .html{
+    width: 300px;
+    border: 2px solid red;
+    background-color: red;
+}
+.myskills .css{
+    width: 250px;
+    border: 2px solid red;
+    background-color: red;
+}
+.myskills .javascript{
+    width: 180px;
+    border: 2px solid red;
+    background-color: red;
+}
+.myskills .bootstrap{
+    width: 230px;
+    border: 2px solid red;
+    background-color: red;
+}
+/* ---------------------------------------------------------------------------------------------------------------------- */
+.projet-main{
+    background-color: black;
+    width: 2000px;
+}
+.myprojects li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+.myprojects li a{
+    
+   text-decoration: none;
+   color: white;
+   font-size: 30px;
+}
